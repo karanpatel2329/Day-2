@@ -16,12 +16,13 @@ h1{
     font-family:'Big Shoulders Display';
     font-weight: 700;
     text-transform: uppercase;
+    padding: 5px 0px;
 }
 p{
     font-family: 'Lexend Deca';
     font-weight: 300;
     font-size: 15px;
-    
+    line-height: 1.8;
 }
 
 .container{
@@ -32,6 +33,7 @@ p{
 
 .container .card{
     padding: 20px;
+    height: 60vh;
 }
 p,h1{
     color:var(--transparent-white);
@@ -40,6 +42,7 @@ p,h1{
     background-color: var(--bright-orange);
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+ 
 }
 .card1 button{
     color:var(--bright-orange);
@@ -69,9 +72,15 @@ button:hover{
     background-color: aliceblue;
     box-shadow: 2px 2px 10px white;
 }
+svg{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 svg:hover{
+    
     padding-left: 50px;
     color: white;
+
 }
 @media (max-width:375px)  {
     .container{
